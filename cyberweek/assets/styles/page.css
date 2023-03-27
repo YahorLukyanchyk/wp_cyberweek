@@ -1,0 +1,69 @@
+.page-block__content-list {
+  margin: 0 20px;
+}
+
+.page-block__content-list p{
+  margin: 10px 0;
+}
+
+.page-block__content-list h2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.page-block__content-list > * {
+  margin: 20px 0;
+}
+
+.page-block__content-list > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid #3e3e3e;
+}
+
+.page-block__content-list > div:last-child > div {
+  border-bottom: none;
+}
+
+.page-block__content:last-child {
+  border-bottom: none;
+}
+
+.page-block p {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.page-block a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.wp-block-image {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1000.89px) {
+  .page-block__content-list > div > div {
+    margin: 0 10px;
+  }
+
+  .page-block__content-list h2 {
+    font-size: 18px;
+  }
+
+  .page-block a {
+    font-size: 16px;
+  }
+}
